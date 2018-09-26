@@ -1,0 +1,373 @@
+/* == 0HERO THEME ==
+ * By Samplasion
+ * You may NOT disclose this
+ * theme as yours.
+ */
+
+:root {
+    --accent-color: 244,64,64 !important;
+    --accent-text-color: #fff555 !important;
+    --notification-color: #f4f440 !important;
+    --important-notification-color: #404040 !important;
+    --important-notification-text-color: #f44040 !important;
+    --background: url(https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg);
+	--user-avatar: url('https://cdn.discordapp.com/avatars/280399026749440000/14ad98d0d162ac63d51f8fbd5302a225.png?size=2048');
+	--opacity: 0.6;
+}
+
+.app {
+	background-image: url("https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-17.jpg");
+	background-size: cover !important;
+	background-position: center !important;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
+}
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.54);
+    border-color: transparent;
+    border-radius: 0;
+    box-shadow: inset 2px 4px 6px rgba(255,255,255,.23);
+}
+.channels-Ie2l6A {
+    background-color: rgba(0,0,0,0);
+}
+.container-PNkimc {
+    background-color:  transparent;
+}
+ /* fix not having a background image anymore */
+.layers-3iHuyZ, .layer-3QrUeG, .container-2lgZY8, .typing-2GQL18 {
+  background: transparent !important;
+}
+/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-3iHuyZ {
+  background: rgba(0,0,0, var(--opacity)) !important;
+}
+.container-2lgZY8 {
+    background-color:  rgba(0,0,0,0);
+}
+.theme-dark .guildsWrapper-5TJh6A {
+    background-color: transparent;
+}
+.theme-dark .chat-3bRxxu form {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .content-yTz4x3 {
+    background-color: transparent;
+}
+.theme-dark .chat-3bRxxu {
+    background-color: transparent;
+}
+
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY {
+    background-color: transparent;
+}
+.theme-dark .members-1998pB {
+    background-color: transparent;
+}
+.theme-dark .title-3qD0b- {
+    background: transparent;
+    box-shadow: none;
+}
+.theme-dark #friends {
+    background-color: transparent;
+}
+.theme-dark .headerBar-UHpsPw {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view {
+    background: transparent;
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
+    opacity: 0;
+}
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
+    color: #dbee5e;
+    border-radius: 0;
+    padding: 4px 36px;
+    background-color: rgba(0,0,0,0.54);
+    box-shadow: inset 1px 4px 6px rgba(255,255,255,0.28);
+}
+.theme-dark .divider-3gKybi span,
+.theme-dark .divider-3gKybi:before,
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
+    background-color: transparent;
+}
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
+    color: white;
+    background-color: rgba(255,255,255,0.23);
+    border-radius: 0;
+    padding: 4px 39px;
+    box-shadow: inset 1px 2px 6px rgba(255,255,255,0.28);
+}
+
+.content-region #bd-customcss-attach-controls::after {
+  width: 100%;
+  padding: 10px;
+  content: "To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A  --accent-color: 244,64,64 !important;\A  --accent-text-color: #fff555 !important;\A  --notification-color: #f4f440 !important;\A  --important-notification-color: #404040 !important;\A  --important-notification-text-color: #f44040 !important;\A  --user-avatar: url('your-avatar-url');\A  --opacity: 0.4;\A}";
+  background: #f44040;
+  margin-top: 10px;
+  display: block;
+  border-radius: 2px;
+  font-family: Consolas, Liberation Mono, Menlo, Courier, monospace;
+  white-space: pre;
+  color: white;
+  margin-bottom: 0px;
+  width: auto; }
+
+#RANbutton:hover {
+    color: var(--accent-text-color) !important;
+}
+
+body {
+    background: var(--background) !important;
+}
+
+.da-app {
+	background-image: url("https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-17.jpg");
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+/* For text 
+.wordmark-2iDDfm path {display: none} */
+.wordmark-2iDDfm::after {
+    content: "- 0Hero by Samplasion";
+    position: absolute;
+    left: 68px;
+    width: 350px;
+    color: #fff;
+    font-size: 14px
+}
+
+.da-messageGroupBlocked {display: none;}
+.da-guildInner {
+    border: 1px solid var(--accent-color) !important;
+    border-radius: 25px 0 0 0 !important;
+    overflow: hidden;
+    transition: border-radius .2s ease-in;
+}
+
+.da-guildInner:hover, .guild-1EfMGQ.selected-ML3OIq .da-guildInner {
+    border-radius: 15px 0 0 0 !important;
+}
+
+.da-chat, .flex-1xMQg5, .content-region,
+.layer-3QrUeG {
+    background: transparent !important;
+}
+
+html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div > div.layers-3iHuyZ.flex-vertical.flex-spacer > div.layer-3QrUeG + div.layer-3QrUeG > div.ui-standard-sidebar-view:before {
+	content: "0Hero by Samplasion" !important;
+	display: inline !important;
+	position: absolute !important;
+	left: unset !important;
+	bottom: 7px !important;
+	top: unset !important;
+	right: 15px !important;
+	opacity: 0.3 !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	visibility: visible !important;
+	color: white !important;
+}
+
+.da-homeIcon {
+    height:50px !important;
+    width:50px !important;
+    background-size: cover !important;
+    color: transparent !important;
+    background-image: var(--user-avatar) !important;
+}
+
+.wrapperUnreadText-2zuiuD > .da-unread,
+.wrapperHoveredText-2geN_M > .da-unread,
+.guild-1EfMGQ:before {
+    background-color: var(--notification-color) !important;
+}
+
+.wrapper-KpKNwI .da-wrapper, .da-badge {
+    background-color: var(--important-notification-color) !important;
+    color: var(--important-notification-text-color) !important;
+}
+
+.item-PXvHYJ:hover, .ui-tab-bar-item:hover,
+.da-wrapperHover, .mention {
+    background-color: rgba(var(--accent-color), 0.2) !important;
+}
+
+.lookOutlined-3sRXeN {
+    border-color: rgba(var(--accent-color), 0.2) !important;
+}
+.lookOutlined-3sRXeN:hover {
+    border-color: rgba(var(--accent-color), 0.5) !important;
+}
+
+.da-totalResults {
+    color: white !important;
+}
+
+.da-newMessagesBar button,
+.selected-3s45Ha[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+    color: white !important;
+}
+
+.item-26Dhrx, .da-checkboxInner > span {
+    border: 0;
+}
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+}
+
+.da-bdaLink, a, [style*="color: rgb(114, 137, 218);"],
+#bd-settings-sidebar > span:nth-child(2),
+.da-embedTitleLink, .da-embedLink,
+.da-wrapper, .mention {
+    color: rgb(var(--accent-color)) !important;
+}
+
+.da-search-bar, .search-l1Wz-Q {
+    border-radius: 100% !important;
+}
+
+.scroller-fzNley.members-1bid1J {
+    background: transparent;
+}
+
+.selected:not([class*="info-3LOr12 da-info"]),
+.da-checked,
+.da-checkboxEnabled,
+.checkboxEnabled-CtinEn, .ui-switch.checked,
+.itemSelected-1qLhcL, .selected-3s45Ha,
+.da-btn:not([class*="info-3LOr12 da-info"]),
+.itemSelected-1qLhcL:hover:not([class*="info-3LOr12 da-info"]),
+.da-btnPrimary:not([class*="info-3LOr12 da-info"]),
+.da-checkboxInner > span,
+.ui-tab-bar-item.selected:hover,
+.da-bdPfbtn, .da-bdaSettingsButton,
+.da-winButtonClose,
+.item-26Dhrx:not([class*="item-26Dhrx marginBottom8-AtZOdT horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG cardPrimaryEditable-3KtE4g card-3Qj_Yx da-item da-horizontal da-flex da-directionRow da-cardPrimaryEditable da-card"]),
+.da-newMessagesBar,
+.da-tabBarContainer, .da-tabBar,
+.da-searchHeader,
+.spinner-wandering-cubes .spinner-item,
+.wanderingCubesItem-WPXqao,
+.channels-Ie2l6A [class*="containerDrag"]:before,
+.channels-Ie2l6A [class*="containerDrag"]:after,
+.botTagRegular-2HEhHi:not([style]),
+.aka-1mqp34,
+.jumpToPresentBar-9P20AM,
+.newMessagesBar-mujexs,
+#friends .tab-bar-item.selected,
+.guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4[style*="background-color:"],
+.guildInner-3DSoA4[style*="background-color:"]:hover,
+#RANbutton:hover,
+#bd-pub-button:hover,
+.embedPill-1Zntps:not([style]),
+.searchFilter-2ESiM3,
+.searchAnswer-3Dz2-q,
+.search-bar-tag,
+.checked-3_4uQ9[style*="background-color: rgb(114, 137, 218)"],
+.barFill-23-gu-:not(.fill),
+.progressBar-3u8FBM,
+.selectorButtonSelected-1j4DmC,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before,
+.valueChecked-m-4IJZ,
+.ui-switch.checked,
+.checkbox-inner input[type=checkbox]:checked + span,
+.bd-pfbtn,
+.bda-right button,
+.bda-settings-button,
+.ui-tab-bar-item.selected,
+.channel-2QD9_O.selected-1HYmZZ a,
+.content-20Aix8:active,
+.wrapperSelectedVoice-xzxa2u .content-20Aix8,
+.wrapperSelectedText-3dSUjC .content-20Aix8,
+.itemSelected-1qLhcL,
+.itemSelected-1qLhcL[style*="background-color: rgb(114, 137, 218)"],
+.selectableItem-1MP3MQ.selected-31soGA,
+.item-26Dhrx[style*="background-color: rgb(114, 137, 218)"]:not([class*="info-3LOr12 da-info"]),
+.round-2jCFai.checked-3_4uQ9[style*="background-color: rgb(67, 181, 129)"],
+.regionSelect-3lf4eE:hover button,
+.questionMark-CWEQZn,
+.root-SR8cQa .buttonInvertedDefault-1UdvTn,
+.popout-3sVMXz .btn,
+.friends-empty .btn,
+.tutorial-popout .button,
+.private-channel-recipients-invite button,
+.wrapper-39oAo3 button,
+.da-colorBrand:not([class*="da-addButton"]):not([class*="attachButton-1UjEWA"]):not(.spriteNormal-1wvG5n):not([class*="button-2b6hmh button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-button da-lookBlank da-colorBrand da-grow"]),
+.da-lookFilled {
+	background: rgb(var(--accent-color)) !important;
+}
+
+#app-mount ::-webkit-scrollbar, #app-mount ::-webkit-scrollbar-thumb {
+    color: var(--accent-color) !important;
+}
+
+/* underline roles in memberlist & DMs */
+.members-1998pB .membersGroup-v9BXpm, .private-channels header {
+	text-align: center;
+	overflow: visible;
+	margin-bottom: 10px;
+}
+
+.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 100%;
+	border-bottom: 2px solid rgb(var(--accent-color));
+}
+.private-channels header::after {padding-bottom: 10px;}
+
+/* underline labels in channellist */
+.channels-Ie2l6A .wrapperDefault-10Jfvz, .channels-Ie2l6A .wrapperHovered-28fu1D {
+	padding-top: 28px;
+	padding-right: 8px;
+	padding-left: 18px;
+	padding: 0 0 8px 0;
+	height: auto;
+	margin: 28px 8px 4px 18px;
+	border-bottom: 2px solid rgb(var(--accent-color));
+}
+.channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH {text-align: center;}
+
+.avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
+	border-color: transparent !important;
+	box-shadow: none !important;
+	z-index: 10;
+}
+
+.avatarSpeaking-1wJCNq::before {
+	content: "";
+	position: absolute;
+	left: -5px;
+	width: 4px;
+	height: 20px;
+	background: #43b581;
+}
+
+.avatarSpeaking-1wJCNq::after {
+	content: "";
+	position: absolute;
+	height: 20px;
+	left: -5px;
+	width: 100%;
+	background: linear-gradient(to right, #43b581 0%, transparent 35%);
+	opacity: 0.5;
+	z-index: -1;
+}

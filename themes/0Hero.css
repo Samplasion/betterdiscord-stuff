@@ -12,13 +12,18 @@
     --important-notification-text-color: #f44040;
     --background: url(https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg);
     --user-avatar: url('https://cdn.discordapp.com/avatars/280399026749440000/14ad98d0d162ac63d51f8fbd5302a225.png?size=2048');
-	--opacity: 0.6;
+	--opacity: 0.65;
 }
 
-.app {
+.da-appMount {
 	background-image: url("https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-17.jpg");
 	background-size: cover !important;
 	background-position: center !important;
+}
+.titleBar-AC4pGV {
+    margin: 0;
+    padding-top: 5px;
+    background: rgba(0, 0, 0, var(--opacity)) !important;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
 .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
@@ -113,7 +118,7 @@
 .content-region #bd-customcss-attach-controls::after {
   width: 100%;
   padding: 10px;
-  content: "To add custom settings to the theme, copy the following\A code in your custom CSS and replace the things you want\A to change:\A \A :root {\A  --accent-color: 244,64,64 !important;\A  --accent-text-color: #fff555 !important;\A  --notification-color: #f4f440 !important;\A  --important-notification-color: #404040 !important;\A  --important-notification-text-color: #f44040 !important;\A  --user-avatar: url('your-avatar-url');\A  --opacity: 0.4;\A}";
+  content: "Use this as a base to change the settings\Aaccordiingly to your taste:\A \A :root {\A  --accent-color: 244,64,64 !important;\A  --accent-text-color: #fff555 !important;\A  --notification-color: #f4f440 !important;\A  --important-notification-color: #404040 !important;\A  --important-notification-text-color: #f44040 !important;\A  --user-avatar: url('your-avatar-url');\A  --opacity: 0.4;\A}";
   background: #f44040;
   margin-top: 10px;
   display: block;
@@ -132,11 +137,11 @@ body {
     background: var(--background) !important;
 }
 
-.da-app {
+/* .da-appMount {
 	background-image: url("https://newevolutiondesigns.com/images/freebies/futuristic-city-wallpaper-17.jpg");
 	background-size: cover !important;
 	background-position: center !important;
-}
+} */
 
 /* For text 
 .wordmark-2iDDfm path {display: none} */
@@ -318,6 +323,7 @@ html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div > div.
     color: var(--accent-color) !important;
 }
 
+/* START rauenzi'S SNIPPETS */
 /* underline roles in memberlist & DMs */
 .members-1998pB .membersGroup-v9BXpm, .private-channels header {
 	text-align: center;
@@ -370,4 +376,14 @@ html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div > div.
 	background: linear-gradient(to right, #43b581 0%, transparent 35%);
 	opacity: 0.5;
 	z-index: -1;
+}
+/* STOP SNIPPETS */
+
+.activityFeed-28jde9, .da-activityFeed {
+    background: transparent !important;
+}
+
+code.inline {
+    background: rgba(0,0,0,.5) !important;
+    border: 1px solid rgba(88,88,88,.5) !important;
 }

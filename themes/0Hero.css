@@ -118,7 +118,7 @@
 .content-region #bd-customcss-attach-controls::after {
   width: 100%;
   padding: 10px;
-  content: "Use this as a base to change the settings\Aaccordiingly to your taste:\A \A :root {\A  --accent-color: 244,64,64 !important;\A  --accent-text-color: #fff555 !important;\A  --notification-color: #f4f440 !important;\A  --important-notification-color: #404040 !important;\A  --important-notification-text-color: #f44040 !important;\A  --user-avatar: url('your-avatar-url');\A  --opacity: 0.4;\A}";
+  content: "Use this as a base to change the settings\A according to your taste:\A \A :root {\A   --accent-color: 244,64,64 !important;\A   --accent-text-color: #fff555 !important;\A   --notification-color: #f4f440 !important;\A   --important-notification-color: #404040 !important;\A   --important-notification-text-color: #f44040 !important;\A   --user-avatar: url('your-avatar-url');\A   --opacity: 0.4;\A}";
   background: #f44040;
   margin-top: 10px;
   display: block;

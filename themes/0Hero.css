@@ -387,3 +387,12 @@ code.inline {
     background: rgba(0,0,0,.5) !important;
     border: 1px solid rgba(88,88,88,.5) !important;
 }
+
+pre, pre code {
+    background: rgba(0,0,0,.29) !important;
+}
+
+.da-copybutton {
+    background: rgba(0,0,0,.29) !important;
+    border: 1px !important;
+}

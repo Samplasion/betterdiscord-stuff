@@ -324,34 +324,6 @@ html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div > div.
 }
 
 /* START rauenzi'S SNIPPETS */
-/* underline roles in memberlist & DMs */
-.members-1998pB .membersGroup-v9BXpm, .private-channels header {
-	text-align: center;
-	overflow: visible;
-	margin-bottom: 10px;
-}
-
-.members-1998pB .membersGroup-v9BXpm::after, .private-channels header::after {
-	content: "";
-	display: block;
-	height: 1px;
-	width: 100%;
-	border-bottom: 2px solid rgb(var(--accent-color));
-}
-.private-channels header::after {padding-bottom: 10px;}
-
-/* underline labels in channellist */
-.channels-Ie2l6A .wrapperDefault-10Jfvz, .channels-Ie2l6A .wrapperHovered-28fu1D {
-	padding-top: 28px;
-	padding-right: 8px;
-	padding-left: 18px;
-	padding: 0 0 8px 0;
-	height: auto;
-	margin: 28px 8px 4px 18px;
-	border-bottom: 2px solid rgb(var(--accent-color));
-}
-.channels-Ie2l6A .nameDefault-2DI02H, .channels-Ie2l6A .nameHovered-1gxhWH {text-align: center;}
-
 .avatarSpeaking-1wJCNq, .avatarDefault-35WC3R, .avatarContainer-72bSfM {
 	border-color: transparent !important;
 	box-shadow: none !important;
@@ -396,3 +368,11 @@ pre, pre code {
     background: rgba(0,0,0,.29) !important;
     border: 1px !important;
 }
+
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
+    color: white;
+    background-color: transparent !important;
+    border-radius: 5px;
+}
+
+.da-noChannel {background:transparent!important;}

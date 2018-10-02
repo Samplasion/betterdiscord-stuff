@@ -126,6 +126,16 @@
     text-align: center;
 }
 
+.containerDefault-3GGEv_ {
+    border-right: solid 4px gb(var(--accent-color));
+    margin-top: -5px !important;
+    height: 25px !important;
+    margin-bottom: 6px !important;
+    line-height: 25px;
+    border-bottom: 2px solid rgb(var(--accent-color));
+    text-align: center;
+}
+
 .member-3W1lQa:hover, .member-3W1lQa .content-OzHfo4:hover, .member-3W1lQa.popout-open {
     background: rgba(var(--accent-color), .12) !important;
 }

@@ -12,7 +12,7 @@
     --important-notification-text-color: #f44040;
     --background: url(https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg);
     --user-avatar: url('https://cdn.discordapp.com/avatars/280399026749440000/14ad98d0d162ac63d51f8fbd5302a225.png?size=2048');
-	--opacity: 0.65;
+    --opacity: 0.65;
 }
 
 .da-appMount {
@@ -113,6 +113,23 @@
     border-radius: 0;
     padding: 4px 39px;
     box-shadow: inset 1px 2px 6px rgba(255,255,255,0.28);
+}
+
+.da-membersGroup:not(#MemberCount) {
+    border-right: solid 4px gb(var(--accent-color));
+    margin-top: -5px !important;
+    height: 25px !important;
+    padding-top: 1.5px !important;
+    line-height: 25px;
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 55%, rgba(var(--accent-color), 1) 100%) !important;;
+}
+
+.member-3W1lQa:hover, .member-3W1lQa .content-OzHfo4:hover, .member-3W1lQa.popout-open {
+    background: rgba(var(--accent-color), .12) !important;
+}
+
+.content-20Aix8:hover {
+    background: rgba(var(--accent-color), .3) !important;
 }
 
 .content-region #bd-customcss-attach-controls::after {

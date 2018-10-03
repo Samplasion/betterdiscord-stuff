@@ -343,7 +343,7 @@ html > head + body > div#app-mount.appMount-3VJmYg > div.app-19_DXt > div > div.
 .tutorial-popout .button,
 .private-channel-recipients-invite button,
 .wrapper-39oAo3 button,
-.da-colorBrand:not([class*="da-addButton"]):not([class*="attachButton-1UjEWA"]):not(.spriteNormal-1wvG5n):not([class*="button-2b6hmh button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-button da-lookBlank da-colorBrand da-grow"]),
+.da-colorBrand:not([class*="da-addButton"]):not([class*="attachButton-1UjEWA"]):not(.spriteNormal-1wvG5n):not([class*="button-2b6hmh button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 grow-q77ONN da-button da-lookBlank da-colorBrand da-grow"]):not(.emojiButtonNormal-TdumYh),
 .da-lookFilled {
 	background: rgb(var(--accent-color)) !important;
 }

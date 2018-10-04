@@ -183,7 +183,10 @@ body {
     font-size: 14px
 }
 
-.da-messageGroupBlocked {display: none;}
+.da-messageGroupBlocked {
+    display: none;
+}
+/*
 .da-guildInner {
     border: 1px solid var(--accent-color) !important;
     border-radius: 25px 0 0 0 !important;
@@ -194,7 +197,7 @@ body {
 .da-guildInner:hover, .guild-1EfMGQ.selected-ML3OIq .da-guildInner {
     border-radius: 15px 0 0 0 !important;
 }
-
+*/
 .da-chat, .flex-1xMQg5, .content-region,
 .layer-3QrUeG {
     background: transparent !important;

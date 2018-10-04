@@ -6,8 +6,8 @@
 
 :root {
     --accent-color: 244,64,64;
-    --accent-text-color: #fff555;
-    --notification-color: #f4f440;
+    --accent-text-color: white;
+    --notification-color: lightgrey;
     --important-notification-color: #404040;
     --important-notification-text-color: #f44040;
     --background: url(https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg);
@@ -405,3 +405,17 @@ pre, pre code {
 }
 
 .da-noChannel {background:transparent!important;}
+
+.container-2Thooq {
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.09) !important;
+    margin-bottom: 10px;
+}
+
+.inner-zqa7da {
+    border-radius: 25px;
+}
+
+#bd-pub-button:hover {
+    color: var(--accent-text-color) !important;
+}

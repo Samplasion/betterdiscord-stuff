@@ -422,3 +422,74 @@ pre, pre code {
 #bd-pub-button:hover {
     color: var(--accent-text-color) !important;
 }
+
+.iconBadge-2dji3k {
+    background-color: var(--notification-color) !important;
+}
+
+.typeMacOS-3EmCyP {
+    background: transparent !important;
+}
+
+.large-3ChYtB[style*="avatars/280399026749440000"]:before{
+  content:url(https://rawgit.com/NFLD99/9617a094e34f8640f6bd1b0ac54ea8e3/raw/df7dc3d00727f07ad70c3db3af2d3e8642990b48/Github.svg);
+  position:absolute;
+  top:80%;
+  right:80%;
+  z-index:1;
+}
+.large-3ChYtB[style*="avatars/280399026749440000"]:hover:after{
+  content:"Theme Developer";
+  background-color: rgb(24,25,26);
+  box-shadow: 1px 1px 15px rgba(var(--accent-color), 0.9);
+  color: white;
+  position:absolute;
+  top:0;
+  left:105%;
+  width:100px;
+  border-radius:10px;
+  padding: 6px 10px;
+  margin-left: 10px;
+  pointer-events: none;
+}
+.large-3ChYtB{z-index:1}
+.avatar-17mtNa:hover{opacity:1}
+
+.content-region #bd-customcss-attach-controls::before {
+  content: "";
+  position: absolute;
+  color: gray;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: 65px -12px 0 -10px var(--important-notification-color), 65px -10px 15px -8px rgba(0, 0, 0, 0.2), 50px 0 0 var(--notification-color), 50px 2px 15px rgba(0, 0, 0, 0.3);
+  order: 5;
+  margin-top: 25px;
+  transform: translate(0, -15px);
+  right: 110px;
+  z-index: 2;
+}
+
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI,
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    background-color: rgba(32, 32, 32, .65) !important;
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
+    color: rgb(var(--accent-color)) !important;
+}
+
+.da-checkboxInner > span {
+    border-color: rgb(var(--accent-color))!important;
+}
+
+.button-38aScr.lookOutlined-3sRXeN .contents-18-Yxp, .dividerContent-2L12VI {
+    color: rgb(var(--accent-color));
+}
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after,
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    border-color: rgba(var(--accent-color), .4) !important;
+}

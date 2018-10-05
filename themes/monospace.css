@@ -1,0 +1,11 @@
+/* == MONOSPACE THEME ==
+ * By Samplasion
+ * You may NOT disclose this
+ * theme as yours.
+ */
+ 
+body {
+    font-family: Courier, Consolas, monospace;
+    font-weight: 400 !important;
+    font-style: normal;
+}

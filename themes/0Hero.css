@@ -493,3 +493,7 @@ pre, pre code {
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before {
     border-color: rgba(var(--accent-color), .4) !important;
 }
+
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: rgba(var(--accent-color), .4) !important;
+}

@@ -1,0 +1,29 @@
+/* == COLLAPSING CSS THEME ==
+ * By Samplasion
+ * You may NOT disclose this
+ * theme as yours.
+ */
+ 
+ /* == HIGHLY UNSTABLE == */
+ 
+ .channels-Ie2l6A {
+    width: 20px !important;
+    transition: all 2s ease-out;
+    color: transparent !important;
+}
+
+.channels-Ie2l6A .scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix,
+.channes-Ie2l6A .bar-30k2ka {
+    display: none !important;
+    transition: all 1s;
+}
+
+.channels-Ie2l6A:hover .scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix {
+    display: block;
+}
+
+.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix, .channels-Ie2l6A:hover {
+    width: 240px !important;
+    max-width: 240px !important;
+    padding: 0;
+}
